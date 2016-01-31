@@ -1,0 +1,12 @@
+openmrs-platform-tomcat:
+  build: tomcat
+  ports:
+    - "8080:8080"
+  container_name: openmrs-platform-tomcat
+  links:
+    - openmrs-platform-mysql
+openmrs-platform-mysql:
+  build: mysql
+  ports:
+    - "3306:3306"
+  container_name: openmrs-platform-mysql
