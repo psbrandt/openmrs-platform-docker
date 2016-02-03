@@ -54,6 +54,10 @@ To log into OpenMRS Platform, use the following details:
 * **User**: admin
 * **Pass**: Admin123
 
+## Documentation
+
+The OpenMRS Platform API docs can be found [here](http://psbrandt.github.io/openmrs-platform-docker/).
+
 ## Troubleshooting
 
 > Could not create connection to database server. Attempted reconnect 3 times. Giving up.
